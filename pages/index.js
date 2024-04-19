@@ -14,7 +14,7 @@ import {fadeIn} from '../variants';
 
 const Home = () => {
     return <div className='h-full bg-primary/60'>
-        {/* text*/}
+        {/* text */}
         <div className='h-full w-full bg-gradient-to-r via-black/30 to-black/10 from-primary/10'>
             <div className='container mx-auto flex h-full flex-col justify-center text-center xl:pt-40 xl:text-left'>
                 {/* title */}
@@ -25,7 +25,7 @@ const Home = () => {
                     animate='show'
                     exit='hidden'
                 >
-                    Transforming ideas <br /> Into <span className='text-accent'>Digital Reality</span>
+                    Giving your Ideas <br /> <span className='text-accent'>Digital Boost</span>
                 </motion.h1>
                 {/* subtitle */}
                 <motion.p
@@ -54,6 +54,19 @@ const Home = () => {
         <div className='absolute right-0 bottom-0 h-full w-full xxl:w-[80%] pointer-events-none'>
             {/* background image */}
             <div className='absolute h-full w-full translate-z-0 bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat mix-blend-color-dodge blur'></div>
+            {/* Particles */}
+            <div>Particles</div>
+            {/* Avatar */}
+            <motion.div
+                className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]'
+                variants={fadeIn('up', 0.5)}
+                initial='hidden'
+                animate='show'
+                exit='hidden'
+                transition={{duration: 1, ease: 'easeInOut'}}
+            >
+                <Avatar />
+            </motion.div>
         </div>
     </div>;
 };
