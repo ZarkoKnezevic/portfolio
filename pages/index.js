@@ -51,8 +51,10 @@ const Home = () => {
             </div>
         </div>
         {/* image */}
-        <div>image</div>
+        <div className='absolute right-0 bottom-0 h-full w-full xxl:w-[80%] pointer-events-none'>
+            {/* background image */}
+            <div className='absolute h-full w-full translate-z-0 bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat mix-blend-color-dodge blur'></div>
+        </div>
     </div>;
 };
-
 export default Home;
