@@ -55,7 +55,7 @@ const Home = () => {
             {/* background image */}
             <div className='absolute h-full w-full translate-z-0 bg-none xl:bg-explosion xl:bg-cover xl:bg-right xl:bg-no-repeat mix-blend-color-dodge blur'></div>
             {/* Particles */}
-            <div>Particles</div>
+            <ParticlesContainer />
             {/* Avatar */}
             <motion.div
                 className='w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]'
