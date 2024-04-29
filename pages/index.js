@@ -65,7 +65,7 @@ const Home = () => {
                 exit='hidden'
                 transition={{duration: 1, ease: 'easeInOut'}}
             >
-                <Avatar />
+                <Avatar src={'/avatar.png'}/>
             </motion.div>
         </div>
     </div>;
