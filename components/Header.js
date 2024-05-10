@@ -15,7 +15,7 @@ const Header = () => {
             <div className='flex flex-col lg:flex-row justify-between items-center gap-y-4 py-8'>
                 {/* logo */}
                 <Link href={'/'}>
-                    <div className='text-2xl md:text-3xl leading-none'>
+                    <div className='text-[20px] sm:text-2xl md:text-3xl leading-none'>
                         <span className='font-bold'>zarko </span>
                         <span className='font-light'>knezevic</span>
                         <span className='text-4xl text-accent'>.</span>
