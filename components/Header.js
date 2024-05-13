@@ -12,7 +12,7 @@ const Header = () => {
   return (
       <header className='absolute z-30 flex w-full items-center px-16 xl:px-0 xl:h-[90px] '>
         <div className='container mx-auto'>
-            <div className='flex flex-col lg:flex-row justify-between items-center gap-y-4 py-8'>
+            <div className='flex flex-col lg:flex-row justify-between items-center gap-y-4 py-2 md:py-8'>
                 {/* logo */}
                 <Link href={'/'}>
                     <div className='text-[20px] sm:text-2xl md:text-3xl leading-none'>
